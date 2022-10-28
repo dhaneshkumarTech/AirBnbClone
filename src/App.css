@@ -1,5 +1,5 @@
 nav {
-  height: 40px;
+  height: 35px;
   display: flex;
   background-color: white;
   padding: 20px 36px;
@@ -10,6 +10,10 @@ nav {
   height: 30px;
   margin-top: 20px;
   margin-left: 30px;
+}
+
+.main-component {
+  padding-left: 118px;
 }
 
 section {
@@ -37,4 +41,69 @@ section {
   font-size: 20px;
   font-weight: 300;
   margin-top: 0px;
+}
+
+.filter {
+  display: inline-block;
+}
+
+.card {
+  padding: 10px;
+  display: inline-block;
+}
+
+.card-image {
+  height: 280px;
+  width: 302px;
+  border-radius: 10px;
+}
+
+.card-info {
+  font-weight: bold;
+}
+
+.star {
+  height: 20px;
+  align-self: center;
+  margin-left: 120px;
+}
+
+.place-distance {
+  margin: 0px;
+}
+
+.date {
+  margin: 0px;
+}
+
+.night-price {
+  margin: 0px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.filter {
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+}
+.filter-url{
+  text-decoration: none;
+  color: gray;
+}
+.filter-url:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.filter-logo {
+  height: 30px;
+  width: 30px;
+}
+.filter-name{
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 3px;
 }
