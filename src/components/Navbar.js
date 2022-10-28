@@ -2,9 +2,9 @@ import react from 'react';
 
 function Navbar() {
     return (
-        <div className='navbar-component'>
+        <nav>
             <img src='images/airbnb-logo.png' alt='AirBnb logo'></img>
-        </div>
+        </nav>
     );
 }
 
