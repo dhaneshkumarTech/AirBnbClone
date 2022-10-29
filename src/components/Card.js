@@ -3,7 +3,7 @@ import React from 'react'
 function Card(props) {
     return (
         <a href='#' className="card">
-            <img className='card-image' src={props.img} alt='Side view image'></img>
+            <img className='card-image' src={`images/${props.img}`} alt='error rending image'></img>
             <div className="card-info">
                 <span>{props.address}</span>
                 <div className='rating'>
