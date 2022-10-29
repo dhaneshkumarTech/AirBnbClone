@@ -8,67 +8,127 @@ import Filter from './components/Filter';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar /><div className='filter-div'>
+        <Filter
+          logo="/images/design.png"
+          name="Design"
+        />
+        <Filter
+          logo="/images/island.png"
+          name="Island"
+        />
+        <Filter
+          logo="/images/sharedhome.png"
+          name="Home"
+        />
+        <Filter
+          logo="/images/artic.png"
+          name="Artic"
+        />
+        <Filter
+          logo="/images/windmall.png"
+          name="Wind"
+        />
+        <Filter
+          logo="/images/palace.png"
+          name="Palace"
+        />
+        <Filter
+          logo="/images/design.png"
+          name="Design"
+        />
+        <Filter
+          logo="/images/island.png"
+          name="Island"
+        />
+        <Filter
+          logo="/images/design.png"
+          name="Design"
+        />
+        <Filter
+          logo="/images/island.png"
+          name="Island"
+        />
+        <Filter
+          logo="/images/artic.png"
+          name="Artic"
+        />
+        <Filter
+          logo="/images/windmall.png"
+          name="Wind"
+        />
+        <Filter
+          logo="/images/palace.png"
+          name="Palace"
+        />
+      </div>
       <div className='main-component'>
+
         <div>
-          <Filter
-            logo="/images/design.png"
-            name="Design"
+          <Card
+            img="/images/image-1.jpg"
+            address="Hangzhou, China"
+            rating="4.9"
+            distance="3.2"
+            date="Aug 20 - Aug 25"
+            price="120"
           />
-          <Filter
-            logo="/images/island.png"
-            name="Island"
+          <Card
+            img="/images/image-2.jpg"
+            address="Mirissa, Sri Lanka"
+            rating="4.3"
+            distance="2.2"
+            date="Nov 28- Dec 12"
+            price="320"
           />
-          <Filter
-            logo="/images/sharedhome.png"
-            name="Home"
+          <Card
+            img="/images/image-3.jpg"
+            address="Hang Dong, Thailand"
+            rating="4.3"
+            distance="12"
+            date="Jan 1 - Jan 8"
+            price="190"
           />
-          <Filter
-            logo="/images/artic.png"
-            name="Artic"
+          <Card
+            img="/images/image-4.jpg"
+            address="G-11 Plaza, Pakistan"
+            rating="4.3"
+            distance="12"
+            date="Feb 26 - Mar 5"
+            price="120"
           />
-          <Filter
-            logo="/images/windmall.png"
-            name="Wind"
+          <Card
+            img="/images/image-5.jpeg"
+            address="Mirissa, Sri Lanka"
+            rating="4.3"
+            distance="2.2"
+            date="Nov 28- Dec 12"
+            price="80"
           />
-          <Filter
-            logo="/images/palace.png"
-            name="Palace"
+          <Card
+            img="/images/image-6.jpg"
+            address="G-11 Plaza, Pakistan"
+            rating="4.3"
+            distance="12"
+            date="Feb 26 - Mar 5"
+            price="120"
           />
-          <Filter
-            logo="/images/design.png"
-            name="Design"
+          <Card
+            img="/images/image-7.jpg"
+            address="Hangzhou, China"
+            rating="4.9"
+            distance="3.2"
+            date="Aug 20 - Aug 25"
+            price="143"
           />
-          <Filter
-            logo="/images/island.png"
-            name="Island"
+          <Card
+            img="/images/image-8.jpeg"
+            address="Mirissa, Sri Lanka"
+            rating="4.3"
+            distance="2.2"
+            date="Nov 28- Dec 12"
+            price="235"
           />
-          <Filter
-            logo="/images/design.png"
-            name="Design"
-          />
-          <Filter
-            logo="/images/island.png"
-            name="Island"
-          />
-          <Filter
-            logo="/images/artic.png"
-            name="Artic"
-          />
-          <Filter
-            logo="/images/windmall.png"
-            name="Wind"
-          />
-          <Filter
-            logo="/images/palace.png"
-            name="Palace"
-          />
-        </div>
-        <div>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
         </div>
 
       </div>

@@ -16,11 +16,8 @@ nav {
   padding-left: 118px;
 }
 
-section {
-  padding: 20px;
-}
-
 .hero-section {
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -43,8 +40,37 @@ section {
   margin-top: 0px;
 }
 
+.filter-div {
+  padding-left: 120px;
+  box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
 .filter {
+  padding: 10px 20px 5px 20px;
   display: inline-block;
+  height: 60px;
+  width: 60px;
+}
+
+.filter-url {
+  text-decoration: none;
+  color: gray;
+}
+
+.filter-url:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.filter-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.filter-name {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 3px;
 }
 
 .card {
@@ -60,12 +86,20 @@ section {
 
 .card-info {
   font-weight: bold;
+  display: flex;
+}
+
+.address {
+  float: right;
+}
+
+.ranking {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .star {
   height: 20px;
-  align-self: center;
-  margin-left: 120px;
 }
 
 .place-distance {
@@ -82,28 +116,4 @@ section {
 
 .price {
   font-weight: bold;
-}
-
-.filter {
-  height: 60px;
-  width: 60px;
-  padding: 20px;
-}
-.filter-url{
-  text-decoration: none;
-  color: gray;
-}
-.filter-url:hover{
-  text-decoration: underline;
-  color: black;
-}
-
-.filter-logo {
-  height: 30px;
-  width: 30px;
-}
-.filter-name{
-  font-size: 12px;
-  font-weight: 500;
-  margin-top: 3px;
 }
