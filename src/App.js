@@ -4,64 +4,20 @@ import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Filter from './components/Filter';
+import filterData from './Data/filterData';
+
 
 function App() {
+  const filterElement = filterData.map(props =>
+    <Filter
+      filterLogo={props.filterLogo}
+      filterName={props.filterName}
+    />)
   return (
     <div className="App">
       <Navbar />
       <div className='filter-div'>
-        <Filter
-          logo="/images/design.png"
-          name="Design"
-        />
-        <Filter
-          logo="/images/island.png"
-          name="Island"
-        />
-        <Filter
-          logo="/images/sharedhome.png"
-          name="Home"
-        />
-        <Filter
-          logo="/images/artic.png"
-          name="Artic"
-        />
-        <Filter
-          logo="/images/windmall.png"
-          name="Wind"
-        />
-        <Filter
-          logo="/images/palace.png"
-          name="Palace"
-        />
-        <Filter
-          logo="/images/design.png"
-          name="Design"
-        />
-        <Filter
-          logo="/images/island.png"
-          name="Island"
-        />
-        <Filter
-          logo="/images/design.png"
-          name="Design"
-        />
-        <Filter
-          logo="/images/island.png"
-          name="Island"
-        />
-        <Filter
-          logo="/images/artic.png"
-          name="Artic"
-        />
-        <Filter
-          logo="/images/windmall.png"
-          name="Wind"
-        />
-        <Filter
-          logo="/images/palace.png"
-          name="Palace"
-        />
+        {filterElement}
       </div>
       <div className='main-component'>
 
