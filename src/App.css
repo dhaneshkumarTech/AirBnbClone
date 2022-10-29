@@ -13,7 +13,7 @@ nav {
 }
 
 .main-component {
-  padding-left: 118px;
+  padding-left: 120px;
 }
 
 .hero-section {
@@ -76,38 +76,41 @@ nav {
 .card {
   padding: 10px;
   display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 5px;
 }
 
 .card-image {
   height: 280px;
-  width: 302px;
+  width: 300px;
   border-radius: 10px;
 }
 
 .card-info {
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
+  justify-content:space-between;
 }
-
-.address {
-  float: right;
-}
-
-.ranking {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .star {
   height: 20px;
 }
 
 .place-distance {
   margin: 0px;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .date {
   margin: 0px;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .night-price {
@@ -115,5 +118,5 @@ nav {
 }
 
 .price {
-  font-weight: bold;
+  font-weight: 500;
 }
