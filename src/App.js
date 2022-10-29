@@ -9,23 +9,9 @@ import cardData from './Data/cardData';
 
 
 function App() {
-  const filters = filterData.map(props =>
-    <Filter
-      filterLogo={props.filterLogo}
-      filterName={props.filterName}
-    />
-  )
+  const filters = filterData.map(filters => <Filter {...filters} />)
 
-  const cards = cardData.map(props => 
-    <Card
-    img = {props.img}
-    address = {props.address}
-    rating = {props.rating}
-    distance = {props.distance}
-    date = {props.date}
-    price = {props.price}
-    />
-    )
+  const cards = cardData.map(card => <Card{...card} />)
 
   return (
     <div className="App">
