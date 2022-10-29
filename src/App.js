@@ -8,7 +8,8 @@ import Filter from './components/Filter';
 function App() {
   return (
     <div className="App">
-      <Navbar /><div className='filter-div'>
+      <Navbar />
+      <div className='filter-div'>
         <Filter
           logo="/images/design.png"
           name="Design"
@@ -132,7 +133,6 @@ function App() {
         </div>
 
       </div>
-
     </div>
   );
 }
